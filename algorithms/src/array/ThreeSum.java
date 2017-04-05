@@ -36,11 +36,10 @@ public class ThreeSum {
 					end--;
 				start++;
 				end--;
-			}else if(nums[start]+nums[end]+target<0){
+			}else if(nums[start]+nums[end]+target<0)
 				start++;
-			}else
-				end--;
-				
+			else
+				end--;	
 		}
 	}
 }
